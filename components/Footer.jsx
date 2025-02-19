@@ -140,13 +140,13 @@ const Footer = () => {
               <Link href="/">
                 <li className="text-sm text-slate-100 ">Tech Weekly</li>
               </Link>
-              <Link href="/">
+              <Link href="/author">
                 <li className="text-sm text-slate-100 ">Staff</li>
               </Link>
-              <Link href="/">
+              <Link href="/contact-us">
                 <li className="text-sm text-slate-100 ">Contact Us</li>
               </Link>
-              <Link href="/">
+              <Link href="/advertise">
                 <li className="text-sm text-slate-100 ">Advertise</li>
               </Link>
             </ul>

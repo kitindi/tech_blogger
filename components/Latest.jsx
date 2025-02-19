@@ -15,7 +15,7 @@ const Latest = () => {
             {/* post card */}
             <div className="py-4 border-b border-gray-200 flex item-start gap-10">
               <div>
-                <Image src={assets[1].grockImage} alt="Grock Image" width={200} height={200} />
+                <Image src={assets.headerImage[1]} alt="Grock Image" width={200} height={200} />
               </div>
               <div className=" flex-grow">
                 <p className="text-sm font-semibold text-[#ff793f] mb-3">AI</p>
@@ -32,7 +32,7 @@ const Latest = () => {
             {/* post card */}
             <div className="py-4 border-b border-gray-200 flex item-start gap-10">
               <div>
-                <Image src={assets[0].headerImage} alt="Grock Image" width={200} height={150} />
+                <Image src={assets.headerImage[0]} alt="Grock Image" width={200} height={150} />
               </div>
               <div className=" flex-grow">
                 <p className="text-sm font-semibold text-[#ff793f] mb-3">AI</p>

@@ -50,7 +50,7 @@ const Header = () => {
             <div className="w-full col-span-12 md:col-span-7 py-4">
               <div className="relative w-full">
                 <h3 className="text-[#ff793f] font-medium text-lg mb-3">AI</h3>
-                <Image src={assets[0].headerImage} alt="header image" className="w-full object-cover rounded-sm" />
+                <Image src={assets.headerImage[0]} alt="header image" className="w-full object-cover rounded-sm" />
                 <div className="absolute left-0 bottom-0 right-0  py-10 px-5">
                   <Link href="/blog/1" className="text-4xl font-bold text-white hover:underline no-underline">
                     Elon Musk’s xAI releases its latest flagship model, Grok 3

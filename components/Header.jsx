@@ -50,10 +50,10 @@ const Header = () => {
             <div className="w-full col-span-12 md:col-span-7 py-4">
               <div className="relative w-full">
                 <h3 className="text-[#ff793f] font-medium text-lg mb-3">AI</h3>
-                <Image src={assets[0].headerImage} alt="header image" className="w-full object-cover" />
+                <Image src={assets[0].headerImage} alt="header image" className="w-full object-cover rounded-sm" />
                 <div className="absolute left-0 bottom-0 right-0  py-10 px-5">
-                  <Link href="" className="text-4xl font-bold text-white hover:underline no-underline">
-                    Nextdoor’s Nirav Tolia thinks he can turn things around with AI; he has a lot riding on it
+                  <Link href="/blog/1" className="text-4xl font-bold text-white hover:underline no-underline">
+                    Elon Musk’s xAI releases its latest flagship model, Grok 3
                   </Link>
                   <p className="flex items-center py-2">
                     <span className="text-xs text-slate-100 mt-2 font-semibold">February 18, 2025</span>
@@ -78,11 +78,11 @@ const Header = () => {
                   <div className="flex-grow">
                     {" "}
                     <h4 className="text-[#ff793f] font-medium text-lg mb-1">AI</h4>
-                    <Link href="" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
-                      Nextdoor’s Nirav Tolia thinks he can turn things around with AI; he has a lot riding on it
+                    <Link href="/blog/1" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
+                      Elon Musk’s xAI releases its latest flagship model, Grok 3
                     </Link>
                     <p className="flex items-center py-2">
-                      <span className="text-xs text-slate-600 mt-2">February 18, 2025</span>
+                      <span className="text-xs text-slate-500 mt-2 font-semibold">February 18, 2025</span>
                     </p>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const Header = () => {
                   <div className="flex-grow">
                     {" "}
                     <h4 className="text-[#ff793f] font-medium text-lg mb-1">AI</h4>
-                    <Link href="" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
+                    <Link href="/blog/1" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
                       Nextdoor’s Nirav Tolia thinks he can turn things around with AI; he has a lot riding on it
                     </Link>
                     <p className="flex items-center py-2">
@@ -122,11 +122,11 @@ const Header = () => {
                   <div className="flex-grow">
                     {" "}
                     <h4 className="text-[#ff793f] font-medium text-lg mb-1">AI</h4>
-                    <Link href="" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
+                    <Link href="/blog/1" className="text-md font-semibold text-[#0f4189] hover:underline no-underline">
                       Nextdoor’s Nirav Tolia thinks he can turn things around with AI; he has a lot riding on it
                     </Link>
                     <p className="flex items-center py-2">
-                      <span className="text-xs text-slate-600 mt-2">February 18, 2025</span>
+                      <span className="text-xs text-slate-500 mt-2 font-semibold">February 18, 2025</span>
                     </p>
                   </div>
                 </div>

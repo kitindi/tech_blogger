@@ -7,7 +7,7 @@ const Post = () => {
     <div className="w-full px-4 md:px-0">
       <div className="w-full grid grid-cols-12">
         <div className="col-span-12 md:col-span-6 relative">
-          <Image src={assets[0].headerImage} alt="Blog Post" />
+          <Image src={assets.headerImage[0]} alt="Blog Post" />
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#f2f8ff] opacity-10"></div>
         </div>
         <div className="col-span-12 md:col-span-6 bg-[#0f4189] flex justify-center items-center p-8 md:px-16 md:py-0">

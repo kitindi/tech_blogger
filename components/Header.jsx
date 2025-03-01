@@ -50,7 +50,7 @@ const Header = () => {
             <div className="w-full col-span-12 md:col-span-7 py-4">
               <div className="relative w-full">
                 <h3 className="text-[#ff793f] font-medium text-lg mb-3">AI</h3>
-                <Image src={assets.headerImage[0]} alt="header image" className="w-full object-cover rounded-sm" />
+                <Image src={assets.headerImage[0]} alt="header image" className=" object-cover rounded-sm w-" width={600} />
                 <div className="absolute left-0 bottom-0 right-0  py-10 px-5">
                   <Link href="/blog/1" className="text-4xl font-bold text-white hover:underline no-underline">
                     Elon Musk’s xAI releases its latest flagship model, Grok 3
@@ -71,7 +71,7 @@ const Header = () => {
                       <path
                         d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
                         stroke="currentColor"
-                        stroke-width="1.5"
+                        strokeWidth="1.5"
                       />
                     </svg>
                   </div>

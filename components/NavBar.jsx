@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="w-full fixed left-0 right-0 top-5 z-10 bg-transparent px-4 md:px-0">
       <nav className="w-full max-w-7xl mx-auto flex justify-between items-center px-4 py-3 border rounded-lg border-slate-200 bg-white">
-        <div className="flex items-center space-x-5 md:gap-16">
+        <Link href="/" className="flex items-center space-x-5 md:gap-16">
           <div className="md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
               <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -65,7 +65,7 @@ const NavBar = () => {
               <Link href="/">Topics</Link>
             </li>
           </ul>
-        </div>
+        </Link>
         <div className="flex items-center space-x-2 ">
           <div className="hidden md:block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
@@ -78,9 +78,12 @@ const NavBar = () => {
               />
             </svg>
           </div>
-          <button className="hidden md:block border border-[#c0d5ed] hover:bg-[#f2f8ff] bg-white hover:border-[#f2f8ff] text-[#0f4189] px-8 py-1.5 rounded-sm">
+          <Link
+            href="/login"
+            className="hidden md:block border border-[#c0d5ed] hover:bg-[#f2f8ff] bg-white hover:border-[#f2f8ff] text-[#0f4189] px-8 py-1.5 rounded-sm"
+          >
             Log In
-          </button>
+          </Link>
           <button className="bg-[#0f4189] text-white px-8 py-1.5 rounded-sm">Subscribe</button>
         </div>
       </nav>

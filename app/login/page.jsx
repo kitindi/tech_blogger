@@ -34,9 +34,9 @@ const Login = () => {
                     Password
                   </label>
                   <div className="text-sm">
-                    <a href="#" className="font-semibold text-[#0f4189]  hover:text-[#0f4189] ">
+                    <Link href="#" className="font-semibold text-[#0f4189]  hover:text-[#0f4189] ">
                       Forgot password?
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-2">

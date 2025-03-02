@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
-const Login = () => {
+const Register = () => {
   return (
-    <section classNameName="w-full py-32">
+    <section classNameName="w-full py-40">
       <div classNameName="w-full max-w-6xl mx-auto">
         <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-            <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Sign as Author</h2>
+            <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Create Account</h2>
           </div>
 
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
@@ -33,18 +33,28 @@ const Login = () => {
                   <label for="password" className="block text-sm/6 font-medium text-gray-900">
                     Password
                   </label>
-                  <div className="text-sm">
-                    <Link href="#" className="font-semibold text-[#0f4189]  hover:text-[#0f4189] ">
-                      Forgot password?
-                    </Link>
-                  </div>
                 </div>
                 <div className="mt-2">
                   <input
                     type="password"
                     name="password"
                     id="password"
-                    autocomplete="current-password"
+                    required
+                    className="block w-full rounded-md bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 border border-gray-400  placeholder:text-gray-400  focus:outline-none  sm:text-sm/6"
+                  />
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center justify-between">
+                  <label for="password" className="block text-sm/6 font-medium text-gray-900">
+                    Confirm Password
+                  </label>
+                </div>
+                <div className="mt-2">
+                  <input
+                    type="password"
+                    name="password2"
+                    id="password2"
                     required
                     className="block w-full rounded-md bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 border border-gray-400  placeholder:text-gray-400  focus:outline-none  sm:text-sm/6"
                   />
@@ -54,17 +64,17 @@ const Login = () => {
               <div>
                 <button
                   type="submit"
-                  className="flex w-full justify-center rounded-md bg-[#0f4189] px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-[#0f4189]  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0f4189]"
+                  className="flex w-full justify-center rounded-md bg-[#0f4189] px-3 py-2.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-[#0f4189]  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0f4189]"
                 >
-                  Sign in
+                  Create account
                 </button>
               </div>
             </form>
 
             <p className="mt-10 text-center text-sm/6 text-gray-500">
-              Not a member?
-              <Link href="/register" className="font-semibold text-[#0f4189]  hover:text-[#0f4189] ml-3">
-                Create account
+              Already a member?
+              <Link href="/login" className="font-semibold text-[#0f4189]  hover:text-[#0f4189]  ml-3">
+                Log in
               </Link>
             </p>
           </div>
@@ -74,4 +84,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;

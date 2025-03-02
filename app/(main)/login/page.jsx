@@ -1,13 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
-const Register = () => {
+const Login = () => {
   return (
-    <section classNameName="w-full py-32">
+    <section classNameName="w-full py-40">
       <div classNameName="w-full max-w-6xl mx-auto">
         <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-            <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Create Account</h2>
+            <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Sign as Author</h2>
           </div>
 
           <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
@@ -54,7 +54,7 @@ const Register = () => {
               <div>
                 <button
                   type="submit"
-                  className="flex w-full justify-center rounded-md bg-[#0f4189] px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-[#0f4189]  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0f4189]"
+                  className="flex w-full justify-center rounded-md bg-[#0f4189] px-3 py-2.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-[#0f4189]  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0f4189]"
                 >
                   Sign in
                 </button>
@@ -62,9 +62,9 @@ const Register = () => {
             </form>
 
             <p className="mt-10 text-center text-sm/6 text-gray-500">
-              Already a member?
-              <Link href="/login" className="font-semibold text-[#0f4189]  hover:text-[#0f4189]  ml-3">
-                Log in
+              Not a member?
+              <Link href="/register" className="font-semibold text-[#0f4189]  hover:text-[#0f4189] ml-3">
+                Create account
               </Link>
             </p>
           </div>
@@ -74,4 +74,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;

@@ -1,3 +1,5 @@
+import "../../globals.css";
+
 export const metadata = {
   title: "Tech Blogger",
   description: "Get informed about the latest tech news",

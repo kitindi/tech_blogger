@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="">
         <main className="mx-auto  grid grid-cols-12 bg-gray-100">
-          <div className="h-screen col-span-2 pl-10 pt-5 bg-white border-r ">
+          <div className=" col-span-2 pl-10 pt-5 bg-white border-r ">
             <Sidebar />
           </div>
           <div className="col-span-10 pt-5  pl-2">{children}</div>

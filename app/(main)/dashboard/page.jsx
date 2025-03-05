@@ -1,5 +1,4 @@
-import Image from "next/image";
-import React from "react";
+import Link from "next/link";
 
 const Dashboard = () => {
   return (
@@ -131,7 +130,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$2999</td>
                       <td className="px-6 py-4">$2999</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -147,8 +146,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -165,7 +164,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -177,7 +176,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$1999</td>
                       <td className="px-6 py-4">$1999</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -193,8 +192,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -211,7 +210,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -223,7 +222,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$99</td>
                       <td className="px-6 py-4">$99</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -239,8 +238,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -257,7 +256,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -269,7 +268,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$199</td>
                       <td className="px-6 py-4">$199</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -285,8 +284,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -303,7 +302,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -315,7 +314,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$199</td>
                       <td className="px-6 py-4">$199</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -331,8 +330,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -349,7 +348,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -361,7 +360,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$2999</td>
                       <td className="px-6 py-4">$2999</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -377,8 +376,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -395,7 +394,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -407,7 +406,7 @@ const Dashboard = () => {
                       <td className="px-6 py-4">$399</td>
                       <td className="px-6 py-4">$399</td>
                       <td className="px-6 py-4 flex items-center gap-5">
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        <Link href="/dashboard/edit-post" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M16.4249 4.60509L17.4149 3.6151C18.2351 2.79497 19.5648 2.79497 20.3849 3.6151C21.205 4.43524 21.205 5.76493 20.3849 6.58507L19.3949 7.57506M16.4249 4.60509L9.76558 11.2644C9.25807 11.772 8.89804 12.4078 8.72397 13.1041L8 16L10.8959 15.276C11.5922 15.102 12.228 14.7419 12.7356 14.2344L19.3949 7.57506M16.4249 4.60509L19.3949 7.57506"
@@ -423,8 +422,8 @@ const Dashboard = () => {
                               stroke-linejoin="round"
                             />
                           </svg>
-                        </a>
-                        <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                        </Link>
+                        <Link href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                             <path
                               d="M19.5 5.5L18.8803 15.5251C18.7219 18.0864 18.6428 19.3671 18.0008 20.2879C17.6833 20.7431 17.2747 21.1273 16.8007 21.416C15.8421 22 14.559 22 11.9927 22C9.42312 22 8.1383 22 7.17905 21.4149C6.7048 21.1257 6.296 20.7408 5.97868 20.2848C5.33688 19.3626 5.25945 18.0801 5.10461 15.5152L4.5 5.5"
@@ -441,7 +440,7 @@ const Dashboard = () => {
                             <path d="M9.5 16.5L9.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                             <path d="M14.5 16.5L14.5 10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                           </svg>
-                        </a>
+                        </Link>
                       </td>
                     </tr>
                   </tbody>

@@ -28,18 +28,11 @@ const Header = () => {
             <li>
               <Link href="/">Computer Science</Link>
             </li>
+
             <li>
-              <Link href="/">Popular</Link>
+              <Link href="/">Tech Events</Link>
             </li>
-            <li>
-              <Link href="/">Events</Link>
-            </li>
-            <li>
-              <Link href="/">Leadership</Link>
-            </li>
-            <li>
-              <Link href="/">Podcasts</Link>
-            </li>
+
             <li>
               <Link href="/">Mindset</Link>
             </li>
